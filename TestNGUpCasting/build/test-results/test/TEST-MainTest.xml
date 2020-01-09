@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-09T13:55:25" hostname="admin265-H110M-H" time="23.671">
+  <properties/>
+  <testcase name="method_ForIdentificationOfWebElements_UsingLocators" classname="MainTest" time="23.671"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1578578121296	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBNHC0B"
+1578578122434	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578578122434	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578578122434	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578578122434	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578578125560	Marionette	INFO	Listening on port 32917
+1578578125611	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2020 7:25:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+(/usr/lib/firefox/firefox:935): dconf-WARNING **: 19:25:32.583: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+]]></system-err>
+</testsuite>
