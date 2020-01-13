@@ -39,8 +39,6 @@ public class MainTest extends BaseTest {
 
     @Test(description = "Method for Identification of webElements")
     public void method_ForIdentificationOfWebElements_UsingLocators() throws InterruptedException {
-        ChromeOptions opt=new ChromeOptions();
-        opt.addArguments("--disable-notification");
         String webURL="https://www.facebook.com";
         driver.get(webURL);
         WebElement Email = driver.findElement(By.id("email"));
@@ -130,8 +128,8 @@ public class MainTest extends BaseTest {
 
     @Test(description = "Method for handling popup")
     public void methodFor_HandlingPopup() throws InterruptedException {
-        driver.get("https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ft" +
-                "ab%3Drm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
+        driver.get("https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail" +
+                ".google.com%2Fmail%2F%3Ftab%3Drm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
         WebElement emailId=driver.findElement(By.id("identifierId"));
         emailId.sendKeys("jitendrabachhav0435@gmail.com");
         WebElement next=driver.findElement(By.xpath("//span[@class='RveJvd snByac']"));
