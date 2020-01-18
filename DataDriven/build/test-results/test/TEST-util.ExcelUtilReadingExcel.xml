@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="util.ExcelUtilReadingExcel" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-13T06:54:44" hostname="admin265-H110M-H" time="0.315">
+  <properties/>
+  <testcase name="test" classname="util.ExcelUtilReadingExcel" time="0.315"/>
+  <system-out><![CDATA[Username--Password--Status--
+jitendraB--123abc--true--
+Abhi--123xyz--true--
+Vishal--xyzabc--false--
+Tushar--abcxyz--false--
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

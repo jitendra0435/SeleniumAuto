@@ -1,0 +1,7 @@
+<suite name="softwareTESTING">
+<test name=" Testng">
+    <classes>
+        <class name="MainTest"/>
+    </classes>
+</test>
+</suite>
